@@ -99,4 +99,5 @@ button.failure {
   border-color: rgb(30, 100, 170);
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }

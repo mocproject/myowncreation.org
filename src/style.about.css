@@ -53,10 +53,14 @@ html {
 }
 
 .footer {
+  color: rgb(170, 170, 170);
   text-align: center;
-  width: 100%;
+  width: 60%;
   bottom: 0;
   font-size: 0.9em;
   padding-top: 5em;
   padding-bottom: 1em;
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 1;
 }

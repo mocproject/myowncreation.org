@@ -54,12 +54,7 @@ body {
   padding-top: 3em;
   max-width: 35em;
   min-width: 15em;
-}
-
-.footer {
-  position: fixed;
-  bottom: 0;
-  font-size: 0.8em;
+  line-height: 1.5;
 }
 
 input.invalid {
@@ -100,4 +95,16 @@ button.failure {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+.footer {
+  color: rgb(170, 170, 170);
+  position: fixed;
+  bottom: 0;
+  font-size: 0.8em;
+}
+
+.footer p {
+  max-width: 75%;
+  line-height: 1;
 }

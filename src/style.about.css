@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  background:
+    linear-gradient(to left, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("./lego.jpg")
+    fixed
+    center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#content {
+  margin: auto;
+  margin-top: 7em;
+  max-width: 50em;
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+#logo {
+  margin: auto;
+  margin-top: -5em;
+  max-width: 25%;
+  min-width: 15%;
+  display: block;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  border-width: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#content h1, #content h2, #subtitle {
+  text-align: center;
+}
+
+#subtitle {
+  font-style: italic;
+}
+
+#content h2 {
+  margin-top: 2em;
+}
+
+#content p {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.footer {
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+  font-size: 0.9em;
+  padding-top: 5em;
+  padding-bottom: 1em;
+}

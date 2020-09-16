@@ -21,6 +21,8 @@ $("#submit").on("click", function(e) {
     return
   }
 
+  $("#submit").text("...")
+
   $.ajax({
     url: FORM_URL,
     method: "GET",

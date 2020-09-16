@@ -9,6 +9,9 @@
     <meta name="keywords" content="lego, moc, mock, build, builder, creator, create, brick"/>
 
     <title>My Own Creation</title>
+    <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/my-own-creation-org/assets/master/export/moc.ico" sizes="64x64">
+    <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/my-own-creation-org/assets/master/export/moc.ico" sizes="32x32">
+    <link rel="icon" type="image/ico" href="https://raw.githubusercontent.com/my-own-creation-org/assets/master/export/moc.ico" sizes="16x16">
     <link href="style.css" rel="stylesheet">
   </head>
 
@@ -16,16 +19,19 @@
     <div id="left-panel">
 
       <div class="header">
-        MOC
+        <span id="title">
+          <img type="image/jpg" src="https://github.com/my-own-creation-org/assets/raw/master/export/moc-256.jpg"/>
+          MOC.org
+        </span>
       </div>
 
       <div class="content">
-        <h2>MyOwnCreation.org</h2>
+        <h2>My Own Creation</h2>
         <p>A new social and collaborative platform for sharing custom creations with the LEGO&trade; builder community</p>
         <p>This project is in its very early stages. Sign up below to recieve updates about the project's progress:</p>
         <form id="subform">
-          <input id="subname" required type="text" name="name" placeholder="Jane Doe"/>
-          <input id="subemail" required type="email" name="email" placeholder="me@example.org"/>
+          <input id="subname" type="text" name="name" maxlength="100" placeholder="Your Name (Optional)"/>
+          <input id="subemail" type="text" name="email" maxlength="100" placeholder="Your Email"/>
           <button href="#" id="submit">Keep Me Updated!</button>
         </form>
       </div>

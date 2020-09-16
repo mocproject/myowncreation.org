@@ -52,6 +52,10 @@ html {
   margin-right: 2em;
 }
 
+#content ul {
+  margin-left: 2em;
+}
+
 .footer {
   color: rgb(170, 170, 170);
   text-align: center;
@@ -62,5 +66,5 @@ html {
   padding-bottom: 1em;
   margin-left: 20%;
   margin-right: 20%;
-  line-height: 1;
+  line-height: 1.5;
 }

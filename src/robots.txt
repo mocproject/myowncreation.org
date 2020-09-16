@@ -1,0 +1,7 @@
+# Allow all bots
+User-agent: *
+
+# Disallow access to non-content directories
+#   Don't have any of those yet
+
+Sitemap: https://myowncreation.org/sitemap.xml

@@ -1,4 +1,4 @@
-// This is a simple script compile form submissions to gsheets
+// This is a simple script to send form submissions to gsheets
 // in the absence of a real backend. Using google sheets for
 // this is definitely one of the jankier things I've put on the internet
 // but it took literally thirty minutes to make work, so it'll

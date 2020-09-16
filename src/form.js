@@ -36,6 +36,7 @@ $("#submit").on("click", function(e) {
       $("#subemail").removeClass("invalid")
       $("#submit").text("Thank you!")
       $("#submit").addClass("success")
+      $("#submit").removeClass("ready")
       $("#subemail").val("")
       $("#subname").val("")
     },
@@ -43,6 +44,7 @@ $("#submit").on("click", function(e) {
       $("#subemail").removeClass("invalid")
       $("#submit").text("Something went wrong!")
       $("#submit").addClass("failure")
+      $("#submit").removeClass("ready")
     }
   })
 })

@@ -63,14 +63,6 @@ input.invalid {
   font-weight: bold;
 }
 
-button.success {
-  background-color: green !important;
-}
-
-button.failure {
-  background-color: red !important;
-}
-
 #subform input, #subform button {
   width: 100%;
   margin-top: 1em;
@@ -95,6 +87,18 @@ button.failure {
   color: white;
   font-weight: bold;
   cursor: pointer;
+}
+
+button.success {
+  background-color: green !important;
+}
+
+button.failure {
+  background-color: red !important;
+}
+
+button.ready:hover {
+  background-color: rgb(65, 145, 245) !important;
 }
 
 .footer {
